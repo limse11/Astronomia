@@ -1,4 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+*{
+    box-sizing: border-box;
+}
 body, html{
     margin: 0;
     background-color: rgb(255, 255, 255);
@@ -20,6 +23,9 @@ body::-webkit-scrollbar-thumb {
     background-color: rgba(0, 0, 0, 0.466);
     border-right: none;
     border-left: none;
+}
+h1, h2, h3, h4, h5{
+    color: rgb(0, 140, 255);
 }
 #header-box{
     position: fixed;
@@ -68,6 +74,12 @@ body::-webkit-scrollbar-thumb {
 #section-one{
     height: 100vh;
     background-color: rgb(255, 255, 255);
+    padding: 80px;
+}
+#section-one p{
+    margin-top: 20px;
+    padding: 0;
+    color: rgb(25, 25, 25);
 }
 #section-one #box{
     width: 500px;
@@ -77,4 +89,5 @@ body::-webkit-scrollbar-thumb {
     background-color: rgb(255, 255, 255);
     position: relative;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.733);
+    border-radius: 10px;
 }
