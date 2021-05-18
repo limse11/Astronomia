@@ -1,1 +1,2 @@
-# SchoolPage
+- find slider photos
+- create slider js
