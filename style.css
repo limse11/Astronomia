@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+body, html{
+    margin: 0;
+    background-color: rgb(255, 255, 255);
+    scrollbar-color: #0000007e #00000000;
+    scrollbar-width: thin;
+    overflow: overlay;
+    font-family: 'Roboto', sans-serif;
+}
+body::-webkit-scrollbar {
+    display: block;
+    width: 5px;
+}
+body::-webkit-scrollbar-track {
+    background: transparent;
+    margin-top: 67px;
+    padding-top: 67px;
+}
+body::-webkit-scrollbar-thumb {
+    background-color: rgba(0, 0, 0, 0.466);
+    border-right: none;
+    border-left: none;
+}
+#header-box{
+    position: fixed;
+    z-index: 1;
+}
+#header *{
+    transition-duration: 0.3s;
+}
+#header{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgba(0, 0, 0, 0.815);
+    width: 100vw;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.733);
+}
+  
+#header li{
+    float: right;
+}
+#header li:hover{
+    background-color: rgb(0, 140, 255);
+}
+#header li:hover a{
+    color: rgb(0, 0, 0);
+}
+#header li a{
+    display: block;
+    color: rgb(0, 140, 255);
+    text-align: center;
+    padding: 24px 42px;
+    text-decoration: none;
+    font-size: 16px;
+}
+#header img {
+    float: left;
+    height: 64px;
+    margin-left: 80px;
+}
+#main-slider{
+    width: 100vw;
+    height: 90vh;
+    background-color: #bbb;
+}
+#section-one{
+    height: 100vh;
+    background-color: rgb(255, 255, 255);
+}
+#section-one #box{
+    width: 500px;
+    height: 800px;
+    left: 60vw;
+    top: -200px;
+    background-color: rgb(255, 255, 255);
+    position: relative;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.733);
+}
