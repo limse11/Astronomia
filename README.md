@@ -1,2 +1,2 @@
-- find slider photos
-- create slider js
+- dedsign sub pages layout
+- add actual content
