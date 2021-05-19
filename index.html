@@ -26,17 +26,23 @@
         <div class="mySlides">
             <h1>Astronomia</h1>
             <h2>Strona astronomia typu tego z temu typu i gółem inne rzeczy</h2>
+            <div class="p-box">
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit eveniet dolorum facilis aut veniam consequatur minima excepturi, libero debitis quisquam at odio. Distinctio praesentium neque placeat est accusantium dolore enim.</p>
+        </div>
         </div>
         <div class="mySlides">
             <h1>Astronomia1</h1>
             <h2>Strona astronomia typu tego z temu typu i gółem inne rzeczy</h2>
+            <div class="p-box">
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit eveniet dolorum facilis aut veniam consequatur minima excepturi, libero debitis quisquam at odio. Distinctio praesentium neque placeat est accusantium dolore enim.</p>
+        </div>
         </div>
         <div class="mySlides">
             <h1>Astronomia2</h1>
             <h2>Strona astronomia typu tego z temu typu i gółem inne rzeczy</h2>
+            <div class="p-box">
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit eveniet dolorum facilis aut veniam consequatur minima excepturi, libero debitis quisquam at odio. Distinctio praesentium neque placeat est accusantium dolore enim.</p>
+        </div>
         </div>
     </div>
     
@@ -44,24 +50,26 @@
         <h1 style="margin-right: 60%;">Astronomy</h1>
         <p style="margin-right: 60%;">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Adipisci praesentium sint odio assumenda voluptates dolores similique, nam modi tempora minima voluptatem possimus? Temporibus consequatur doloremque debitis. Eligendi vero quae dolore.</p>
         <div id="astronomia-box">
-            <h1>Wpisz, co cię interesuje</h1>
+            <h1>Wyszukaj, co cię interesuje</h1>
             <form>
                 <select id="form-cat">
-                    <option value="default">Wybierz kategorię</option>
+                    <option value="none">Wybierz kategorię</option>
                     <option value="Planeta">Planety</option>
                     <option value="Gwiazda">Gwiazdy</option>
                     <option value="Galaktyka">Galaktyki</option>
+                    <option value="">Inne</option>
                 </select>
                 <input id="form-key" type="text" placeholder="Wpisz słowo kluczowe">
                 <div style="text-align: left; width: 60%; margin-left: auto; margin-right: auto; margin-top: 40px;">
-                    <p>Wybierz wyszukiwarkę:</p>
-                    <input type="radio" name="search" value="google"><img src="other/google.png" height="14px" style="margin-right: 4px;">Google<br>
-                    <input type="radio" name="search" value="bing"><img src="other/bing.png" height="14px" style="margin-right: 4px;">Bing<br>
-                    <input type="radio" name="search" value="duck"><img src="other/duckduckgo.png" height="14px" style="margin-right: 4px;">Duck Duck Go<br>
-                    <input type="radio" name="search" value="wiki"><img src="other/wikipedia.png" height="14px" style="margin-right: 4px;">Wikipedia<br>
+                    <p id="label">Wybierz wyszukiwarkę:</p>
+                    <input type="radio" name="search" value="https://www.google.com/search?q="><img src="other/google.png" height="14px" style="margin-right: 4px;">Google<br>
+                    <input type="radio" name="search" value="https://www.bing.com/search?q="><img src="other/bing.png" height="14px" style="margin-right: 4px;">Bing<br>
+                    <input type="radio" name="search" value="https://duckduckgo.com/?q="><img src="other/duckduckgo.png" height="14px" style="margin-right: 4px;">Duck Duck Go<br>
+                    <input type="radio" name="search" value="https://pl.wikipedia.org/w/index.php?search="><img src="other/wikipedia.png" height="14px" style="margin-right: 4px;">Wikipedia<br>
                 </div>
-                <button id="send" style="margin-top: 80px;">Szukaj</button>
             </form>
+            
+            <button id="send" style="margin-top: 80px;" onclick="search()">Szukaj</button>
         </div>
     </div>
     
@@ -138,5 +146,6 @@
         </div>
     </div>
     <script src="scripts/slider.js"></script>
+    <script src="scripts/search.js"></script>
 </body>
 </html>

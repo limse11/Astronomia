@@ -122,6 +122,7 @@ a:hover{
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    position: relative;
 }
 #main-slider .mySlides{
     width: 100%;
@@ -130,24 +131,42 @@ a:hover{
     padding: 100px;
     padding-left: 200px;
     padding-right: 200px;
+    visibility: visible;
     transition-duration: 0.4s;
+    transition: all 2s;
     overflow: hidden;
+    text-overflow: ellipsis;
+    position: absolute;
 }
 #main-slider .mySlides h1{
     font-size: 64px;
     margin-bottom: 40px;
-    margin-right: 70%;
     transition-duration: 0.4s;
+    animation: text 1s;
+    overflow: hidden;
+    white-space: nowrap;
 }
 #main-slider .mySlides h2{
     font-size: 32px;
     margin-bottom: 40px;
     color: rgb(255, 255, 255);
-    margin-right: 70%;
+    animation: text 1.5s;
+    overflow: hidden;
+    white-space: nowrap;
 }
-#main-slider .mySlides p{
+#main-slider .mySlides .p-box{
     color: rgba(255, 255, 255, 0.616);
-    margin-right: 70%;
+    animation: text 2s;
+    width: 40%;
+}
+@keyframes text{
+    from{
+        margin-left: 1000px;
+    }
+    to{
+        margin-left: 0px;
+    }
+    
 }
 #astronomia{
     height: 90vh;
@@ -208,10 +227,16 @@ a:hover{
     transition-duration: 0.2s;
 }
 #form-key:focus, #form-cat:focus{
-    box-shadow: inset 0px 0px 4px rgba(0, 0, 0, 0.205);
+    background-color: rgb(233, 245, 255);
+    border-radius: 14px;
+    border-color: rgb(0, 140, 255);
+}
+.empty-field{
+    background-color: rgb(255, 125, 125);
 }
 #astronomia #astronomia-box form #form-key:hover, #astronomia #astronomia-box form #form-cat:hover{
     border-radius: 14px;
+    border-color: rgb(0, 140, 255);
 }
 button{
     font-size: 14px;
