@@ -10,6 +10,10 @@ body, html{
     overflow: overlay;
     font-family: 'Roboto', sans-serif;
     scroll-behavior: smooth;
+    background-image: url('other/bg2.jpg');
+    background-position: right;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 body::-webkit-scrollbar {
     display: block;
@@ -21,11 +25,20 @@ body::-webkit-scrollbar-track {
     padding-top: 67px;
 }
 body::-webkit-scrollbar-thumb {
-    background-color: rgba(0, 0, 0, 0.466);
+    background-color: rgba(0, 140, 255, 0.466);
     border-right: none;
     border-left: none;
 }
 h1, h2, h3, h4, h5{
+    color: rgb(0, 140, 255);
+}
+a{
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    color: rgb(255, 255, 255);
+    transition-duration: 0.2s;
+}
+a:hover{
     color: rgb(0, 140, 255);
 }
 #header-box{
@@ -81,26 +94,26 @@ h1, h2, h3, h4, h5{
     background-repeat: no-repeat;
     background-size: cover;
 }
-#section-one{
-    height: 100vh;
+#astronomia{
+    height: 90vh;
     background-color: rgb(255, 255, 255);
-    padding: 80px;
+    padding: 100px;
 }
 .overlay{
     width: 100%;
     height: 100%;
     background-color: rgba(0, 0, 0, 0.6);
 }
-#section-one p{
+#astronomia p{
     margin-top: 20px;
     padding: 0;
     color: rgb(30, 30, 30);
 }
-#section-one #box{
+#astronomia #astronomia-box{
     width: 30%;
-    height: 90%;
+    height: 110%;
     left: 60%;
-    top: -50%;
+    top: -55%;
     background-color: rgb(255, 255, 255);
     position: relative;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.733);
@@ -109,11 +122,13 @@ h1, h2, h3, h4, h5{
     text-align: center;
     padding: 20px;
 }
-#section-one #box form{
+#astronomia #astronomia-box form{
     width: 100%;
     padding: 20px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
 }
-#section-one #box form #form-cat{
+#astronomia #astronomia-box form #form-cat{
     width: 60%;
     margin-bottom: 40px;
     height: 40px;
@@ -121,14 +136,27 @@ h1, h2, h3, h4, h5{
     border: 2px solid rgba(0,0,0,0.4);
     border-radius: 4px;
     text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    margin-top: 40px;
+    transition-duration: 0.2s;
 }
-#section-one #box form #form-key{
+#astronomia #astronomia-box form #form-key{
     width: 60%;
     height: 40px;
     outline: none;
     border: 2px solid rgba(0,0,0,0.4);
     border-radius: 4px;
     padding-left: 10px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    transition-duration: 0.2s;
+}
+#form-key:focus, #form-cat:focus{
+    box-shadow: inset 0px 0px 4px rgba(0, 0, 0, 0.205);
+}
+#astronomia #astronomia-box form #form-key:hover, #astronomia #astronomia-box form #form-cat:hover{
+    border-radius: 14px;
 }
 button{
     font-size: 14px;
@@ -138,8 +166,74 @@ button{
     border-radius: 4px;
     padding: 12px 24px;
     transition-duration: 0.2s;
+    cursor: pointer;
 }
 button:hover{
     color: rgb(0, 140, 255);
     background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+}
+#section-two{
+    height: 100vh;
+    padding: 80px;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+#section-three{
+    height: 30vh;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    align-content: stretch;
+    justify-content: space-evenly;
+    box-shadow: 0px -4px 10px rgba(0, 0, 0, 0.733);
+    border-bottom: 2px solid rgb(255, 255, 255);
+}
+#section-three .page-box{
+    height: 100%;
+    width: 40%;
+    background-size: 110%;
+    transition-duration: 0.4s;
+    background-position: center;
+    text-align: center;
+}
+#section-three .page-box:hover{
+    background-size: 120%;
+    background-position: center;
+}
+#section-three .page-box *{
+    box-sizing: border-box;
+}
+#section-three .page-box h1{
+    color: rgb(255, 255, 255);
+    margin: 0;
+    padding: 0;
+    padding-top: 70px;
+}
+#section-three .page-box p{
+    color: rgba(255, 255, 255, 0.616);
+    margin: 0;
+    padding-left: 80px;
+    padding-right: 80px;
+    padding-top: 10px;
+}
+#footer{
+    height: 60vh;
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    align-content: stretch;
+    justify-content: space-evenly;
+}
+#footer p{
+    color: rgba(255, 255, 255, 0.616);
+}
+#footer .footer-box{
+    width: 30%;
+    height: 100%;
+    padding: 20px;
+    padding-top: 80px;
+}
+#footer li{
+    color: rgba(255, 255, 255, 0.616);
+    font-size: 20px;
+    list-style-image: url(other/arrow.svg);
+    margin-bottom: 10px;
 }
