@@ -97,10 +97,10 @@ h1, h2, h3, h4, h5{
     color: rgb(30, 30, 30);
 }
 #section-one #box{
-    width: 40%;
+    width: 30%;
     height: 90%;
-    left: 50%;
-    top: -40%;
+    left: 60%;
+    top: -50%;
     background-color: rgb(255, 255, 255);
     position: relative;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.733);
@@ -108,4 +108,38 @@ h1, h2, h3, h4, h5{
     z-index: 2;
     text-align: center;
     padding: 20px;
+}
+#section-one #box form{
+    width: 100%;
+    padding: 20px;
+}
+#section-one #box form #form-cat{
+    width: 60%;
+    margin-bottom: 40px;
+    height: 40px;
+    outline: none;
+    border: 2px solid rgba(0,0,0,0.4);
+    border-radius: 4px;
+    text-align: center;
+}
+#section-one #box form #form-key{
+    width: 60%;
+    height: 40px;
+    outline: none;
+    border: 2px solid rgba(0,0,0,0.4);
+    border-radius: 4px;
+    padding-left: 10px;
+}
+button{
+    font-size: 14px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(0, 140, 255);
+    border: 2px solid rgb(0, 140, 255);
+    border-radius: 4px;
+    padding: 12px 24px;
+    transition-duration: 0.2s;
+}
+button:hover{
+    color: rgb(0, 140, 255);
+    background-color: rgb(255, 255, 255);
 }

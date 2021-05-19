@@ -10,7 +10,7 @@
 <body>
     <div id="header-box">
         <ul id="header">
-            <img src="other/logo.svg">
+            <img src="other/planet.svg">
             <li><a href="#section-three">HOME</a></li>
             <li><a href="#section-two">TEST</a></li>
             <li><a href="#box">TEST</a></li>
@@ -26,13 +26,21 @@
         <div id="box">
             <h1>Wpisz, co cię interesuje</h1>
             <form>
-                <select id="#">
+                <select id="form-cat">
                     <option value="default">Wybierz kategorię</option>
                     <option value="Planeta">Planety</option>
                     <option value="Gwiazda">Gwiazdy</option>
                     <option value="Galaktyka">Galaktyki</option>
                 </select>
-                <input id="#" type="text" placeholder="Wpisz słowo kluczowe">
+                <input id="form-key" type="text" placeholder="Wpisz słowo kluczowe">
+                <div style="text-align: left; width: 60%; margin-left: auto; margin-right: auto; margin-top: 40px;">
+                    <p>Wybierz wyszukiwarkę:</p>
+                    <input type="radio" name="search" value="google"><img src="other/google.png" height="14px" style="margin-right: 4px;">Google<br>
+                    <input type="radio" name="search" value="bing"><img src="other/bing.png" height="14px" style="margin-right: 4px;">Bing<br>
+                    <input type="radio" name="search" value="duck"><img src="other/duckduckgo.png" height="14px" style="margin-right: 4px;">Duck Duck Go<br>
+                    <input type="radio" name="search" value="wiki"><img src="other/wikipedia.png" height="14px" style="margin-right: 4px;">Wikipedia<br>
+                </div>
+                <button id="send" style="margin-top: 80px;">Szukaj</button>
             </form>
         </div>
     </div>
