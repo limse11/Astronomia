@@ -14,6 +14,7 @@ body, html{
     background-position: right;
     background-repeat: no-repeat;
     background-attachment: fixed;
+    background-size: cover;
 }
 body::-webkit-scrollbar {
     display: block;
@@ -93,6 +94,32 @@ a:hover{
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+}
+#main-slider .mySlides{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 100px;
+    padding-left: 200px;
+    padding-right: 200px;
+    transition-duration: 0.4s;
+    overflow: hidden;
+}
+#main-slider .mySlides h1{
+    font-size: 64px;
+    margin-bottom: 40px;
+    margin-right: 70%;
+    transition-duration: 0.4s;
+}
+#main-slider .mySlides h2{
+    font-size: 32px;
+    margin-bottom: 40px;
+    color: rgb(255, 255, 255);
+    margin-right: 70%;
+}
+#main-slider .mySlides p{
+    color: rgba(255, 255, 255, 0.616);
+    margin-right: 70%;
 }
 #astronomia{
     height: 90vh;
