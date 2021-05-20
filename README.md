@@ -1,3 +1,2 @@
 - finish page navigation
-- dedsign sub pages layout
 - add actual content

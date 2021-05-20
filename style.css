@@ -139,7 +139,7 @@ a:hover{
 }
 #main-slider .mySlides h1{
     font-size: 64px;
-    margin-bottom: 40px;
+    margin-bottom: 20px;
     transition-duration: 0.4s;
     animation: text 1s;
     overflow: hidden;
@@ -147,7 +147,7 @@ a:hover{
 }
 #main-slider .mySlides h2{
     font-size: 32px;
-    margin-bottom: 40px;
+    margin-bottom: 20px;
     color: rgb(255, 255, 255);
     animation: text 1.5s;
     overflow: hidden;
@@ -252,12 +252,12 @@ button:hover{
     background-color: rgb(255, 255, 255);
     border-radius: 10px;
 }
-#section-two{
+#kosmos{
     height: 100vh;
     padding: 80px;
     background-color: rgba(0, 0, 0, 0.6);
 }
-#section-three{
+#podstrony{
     height: 30vh;
     background-color: rgb(255, 255, 255);
     display: flex;
@@ -266,7 +266,7 @@ button:hover{
     box-shadow: 0px -4px 10px rgba(0, 0, 0, 0.733);
     border-bottom: 2px solid rgb(255, 255, 255);
 }
-#section-three .page-box{
+#podstrony .page-box{
     height: 100%;
     width: 40%;
     background-size: 110%;
@@ -274,20 +274,20 @@ button:hover{
     background-position: center;
     text-align: center;
 }
-#section-three .page-box:hover{
+#podstrony .page-box:hover{
     background-size: 120%;
     background-position: center;
 }
-#section-three .page-box *{
+#podstrony .page-box *{
     box-sizing: border-box;
 }
-#section-three .page-box h1{
+#podstrony .page-box h1{
     color: rgb(255, 255, 255);
     margin: 0;
     padding: 0;
     padding-top: 70px;
 }
-#section-three .page-box p{
+#podstrony .page-box p{
     color: rgba(255, 255, 255, 0.616);
     margin: 0;
     padding-left: 80px;
@@ -315,4 +315,29 @@ button:hover{
     font-size: 20px;
     list-style-image: url(other/arrow.svg);
     margin-bottom: 10px;
+}
+#page-banner{
+    width: 100vw;
+    height: 20vh;
+    background-image: url('other/bg2.png');
+    background-size: cover;
+    background-position: bottom;
+}
+#page-banner h1{
+    margin: 0;
+    font-size: 50px;
+    color: rgb(255, 255, 255);
+    position: relative;
+    top: 50%;
+    transform: translateY(-25px);
+}
+#page-one{
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(247, 249, 255);
+}
+#page-two{
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(255, 255, 255);
 }
