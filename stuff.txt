@@ -1,12 +1,16 @@
 Astronomia
 Co to właściwie jest astronomia?
 Astronomia to dziedzina nauki, która bada zjawiska zachodzące poza naszą planetą zwaną Ziemia. Bada też ona zachowania i naturę ciał niebieskich, czyli np.(Planet, Gwiazd, Mgławic czy Galaktyk).
-Zajmuje się ona równiez powstaniem i rozwojem (ewolucją) Wszechświata. W społeczeństiwe od zawsze istniało zainteresowanie kosmosem i jego tajemnicami. Istnieją przypuszczenia, że już w paleolicie, 
+Zajmuje się ona równiez powstaniem i rozwojem (ewolucją) Wszechświata. 
+
+W społeczeństiwe od zawsze istniało zainteresowanie kosmosem i jego tajemnicami. Istnieją przypuszczenia, że już w paleolicie, 
 kiedy powstawały malowidła jaskiniowe, część z nich mogła dotyczyć obiektów astronomicznych, np. Plejad czy prezentacji 29 dniowego cyklu faz Księżyca. W niektórych miejscach, takich jak Stonehenge, 
 wczesne kultury budowały ogromne artefakty, które prawdopodobnie miały astronomiczny cel. Oprócz zastosowań rytualnych były to obserwatoria pomagające m.in. wyznaczyć długość roku, co umożliwiało zwiększenie 
 wydajności upraw.
 Przed wynalezieniem narzędzi, takich jak teleskop, badania gwiazd musiały być prowadzone jedynie przy pomocy gołego oka. W rozwiniętych cywilizacjach, zwłaszcza w Mezopotamii, Chinach, Egipcie, Grecji, Indiach i Ameryce Środkowej, 
-budowano pierwsze obserwatoria i badano poglądy na temat natury Wszechświata. Większość wczesnych obserwacji astronomicznych faktycznie służyła sporządzaniu katalogów gwiazd i planet. Z tych obserwacji wywnioskowano ruch planet i sformułowano 
+budowano pierwsze obserwatoria i badano poglądy na temat natury Wszechświata. Większość wczesnych obserwacji astronomicznych faktycznie służyła sporządzaniu katalogów gwiazd i planet. 
+
+Z tych obserwacji wywnioskowano ruch planet i sformułowano 
 pierwsze filozoficzne wnioski. Ziemia była uważana za centrum Wszechświata, a wokół niej krążyć miały: Księżyc, Słońce i planety otoczone sferą gwiazd. Teoria ta znana jest jako geocentryczny model Wszechświata.
 W okresie renesansu Mikołaj Kopernik zaproponował heliocentryczny model Układu Słonecznego. Jego teoria została później obroniona, rozszerzona i poprawiona przez Galileusza i Johannesa Keplera.
  Kepler natomiast jako pierwszy w prawidłowy sposób opisał ruch ciał niebieskich wokół Słońca. Stwierdził, że planety poruszają się po eliptycznych orbitach, a nie kołowych, jak dotąd sądzono. Nie udało mu się jednak sformułować właściwej teorii na podstawie swoich zapisków. 
