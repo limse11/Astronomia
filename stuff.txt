@@ -1,14 +1,20 @@
+---
+MAIN PAGE:
+
 Astronomia
 Co to właściwie jest astronomia?
 Astronomia to dziedzina nauki, która bada zjawiska zachodzące poza naszą planetą zwaną Ziemia. Bada też ona zachowania i naturę ciał niebieskich, czyli np.(Planet, Gwiazd, Mgławic czy Galaktyk).
 Zajmuje się ona równiez powstaniem i rozwojem (ewolucją) Wszechświata. 
 
+History:
 W społeczeństiwe od zawsze istniało zainteresowanie kosmosem i jego tajemnicami. Istnieją przypuszczenia, że już w paleolicie, 
 kiedy powstawały malowidła jaskiniowe, część z nich mogła dotyczyć obiektów astronomicznych, np. Plejad czy prezentacji 29 dniowego cyklu faz Księżyca. W niektórych miejscach, takich jak Stonehenge, 
 wczesne kultury budowały ogromne artefakty, które prawdopodobnie miały astronomiczny cel. Oprócz zastosowań rytualnych były to obserwatoria pomagające m.in. wyznaczyć długość roku, co umożliwiało zwiększenie 
 wydajności upraw.
 Przed wynalezieniem narzędzi, takich jak teleskop, badania gwiazd musiały być prowadzone jedynie przy pomocy gołego oka. W rozwiniętych cywilizacjach, zwłaszcza w Mezopotamii, Chinach, Egipcie, Grecji, Indiach i Ameryce Środkowej, 
 budowano pierwsze obserwatoria i badano poglądy na temat natury Wszechświata. Większość wczesnych obserwacji astronomicznych faktycznie służyła sporządzaniu katalogów gwiazd i planet. 
+
+--READ MORE--
 
 Z tych obserwacji wywnioskowano ruch planet i sformułowano 
 pierwsze filozoficzne wnioski. Ziemia była uważana za centrum Wszechświata, a wokół niej krążyć miały: Księżyc, Słońce i planety otoczone sferą gwiazd. Teoria ta znana jest jako geocentryczny model Wszechświata.
@@ -22,3 +28,7 @@ W okresie renesansu Mikołaj Kopernik zaproponował heliocentryczny model Układ
  Relative:
  25 listopada 1915 r. Einstein przedstawił swoją najważniejszą pracę: ogólną teorię względności[80]. Jest ona uogólnieniem poprzedniej teorii, opisuje również ruch z przyspieszeniem. Stwierdza równoważność grawitacji i przyspieszenia oraz opisuje różnice między geometrią euklidesową a geometrią w silnych polach grawitacyjnych. Teoria przewiduje również znacznie silniejsze niż w teorii Newtona odchylenie toru światła przechodzącego obok gwiazdy.
  Teoria Einsteina zbudowana jest na podstawowym fakcie eksperymentalnym, iż masa „bezwładna” i „grawitacyjna” są nieodróżnialne (masa bezwładna to masa występująca w zasadach dynamiki Newtona, a masa grawitacyjna – to masa występująca w prawie powszechnego ciążenia). Fakt ten jest kluczowy, podobnie jak kluczowym do sformułowania szczególnej teorii grawitacji. Teoria ta uogólnia szczególną teorię względności obowiązującą dla inercjalnych układów odniesienia na dowolne, także nieinercjalne, układy odniesienia. Korzysta ona z metod rachunku tensorowego, geometrii nieeuklidesowej, teorii przestrzeni Riemanna.
+
+---
+PLANETS:
+
