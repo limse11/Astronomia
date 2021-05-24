@@ -1,2 +1,3 @@
+- add read more button functionality
 - finish page navigation
 - add actual content
