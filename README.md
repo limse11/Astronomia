@@ -1,5 +1,5 @@
-- create subpages (ex.black holes, supernovas...)
+- create sub pages (ex.black holes, supernovas...)
 - add read more button functionality
 - finish page navigation
 - add actual content
-- responisvness, relative values
+- responsiveness, relative values

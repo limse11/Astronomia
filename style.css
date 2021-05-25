@@ -1,343 +1,396 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
-*{
-    box-sizing: border-box;
+
+* {
+  box-sizing: border-box;
 }
-body, html{
-    margin: 0;
-    background-color: rgb(255, 255, 255);
-    scrollbar-color: #0000007e #00000000;
-    scrollbar-width: thin;
-    overflow: overlay;
-    font-family: 'Roboto', sans-serif;
-    scroll-behavior: smooth;
-    background-image: url('other/bg2.jpg');
-    background-position: right;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
+
+body, html {
+  margin: 0;
+  background-color: rgb(255, 255, 255);
+  scrollbar-color: #0000007e #00000000;
+  scrollbar-width: thin;
+  overflow: overlay;
+  font-family: 'Roboto', sans-serif;
+  scroll-behavior: smooth;
+  background-image: url('other/bg2.jpg');
+  background-position: right;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
 }
+
 body::-webkit-scrollbar {
-    display: block;
-    width: 5px;
+  display: block;
+  width: 5px;
 }
+
 body::-webkit-scrollbar-track {
-    background: transparent;
-    margin-top: 67px;
-    padding-top: 67px;
+  background: transparent;
+  margin-top: 67px;
+  padding-top: 67px;
 }
+
 body::-webkit-scrollbar-thumb {
-    background-color: rgba(0, 140, 255, 0.466);
-    border-right: none;
-    border-left: none;
+  background-color: rgba(0, 140, 255, 0.466);
+  border-right: none;
+  border-left: none;
 }
-h1, h2, h3, h4, h5{
-    color: rgb(0, 140, 255);
+
+h1, h2, h3, h4, h5 {
+  color: rgb(0, 140, 255);
 }
-a{
-    text-decoration: none;
-    font-family: 'Roboto', sans-serif;
-    color: rgb(255, 255, 255);
-    transition-duration: 0.2s;
+
+a {
+  text-decoration: none;
+  font-family: 'Roboto', sans-serif;
+  color: rgb(255, 255, 255);
+  setset transition-duration: 0.2s;
 }
-a:hover{
-    color: rgb(0, 140, 255);
+
+a:hover {
+  color: rgb(0, 140, 255);
 }
-#loading-screen{
-    left: 0;
-    top: 0;
-    position: fixed;
-    width: 100vw;
-    height: 100vh;
-    background-color: rgb(0, 0, 0);
-    z-index: 5;
+
+#loading-screen {
+  left: 0;
+  top: 0;
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgb(0, 0, 0);
+  z-index: 5;
 }
-#loading-screen #loading-img{
-    position: relative;
-    left: 50%;
-    top: 50%;
-    width: 100px;
-    height: 100px;
-    margin-left: -50px;
-    margin-top: -50px;
-    animation: load 1s infinite linear;
+
+#loading-screen #loading-img {
+  position: relative;
+  left: 50%;
+  top: 50%;
+  width: 100px;
+  height: 100px;
+  margin-left: -50px;
+  margin-top: -50px;
+  animation: load 1s infinite linear;
 }
-@keyframes load{
-    from {
-      transform: rotate(0deg);
-    }
-    to {
-      transform: rotate(359deg);
-    }
+
+@keyframes load {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(359deg);
+  }
 }
-#header-box{
-    position: fixed;
-    z-index: 3;
+
+#header-box {
+  position: fixed;
+  z-index: 3;
 }
-#header-margin{
-    height: 67px;
-    background-color: rgb(0, 0, 0);
-    width: 100vw;
+
+#header-margin {
+  height: 67px;
+  background-color: rgb(0, 0, 0);
+  width: 100vw;
 }
-#header *{
-    transition-duration: 0.3s;
+
+#header * {
+  transition-duration: 0.3s;
 }
-#header{
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: rgba(0, 0, 0, 0.815);
-    width: 100vw;
-    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.733);
+
+#header {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: rgba(0, 0, 0, 0.815);
+  width: 100vw;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.733);
 }
-  
-#header li{
-    float: right;
+
+#header li {
+  float: right;
 }
-#header li:hover{
-    background-color: rgb(0, 140, 255);
+
+#header li:hover {
+  background-color: rgb(0, 140, 255);
 }
-#header li:hover a{
-    color: rgb(0, 0, 0);
+
+#header li:hover a {
+  color: rgb(0, 0, 0);
 }
-#header li a{
-    display: block;
-    color: rgb(0, 140, 255);
-    text-align: center;
-    padding: 24px 42px;
-    text-decoration: none;
-    font-size: 16px;
+
+#header li a {
+  display: block;
+  color: rgb(0, 140, 255);
+  text-align: center;
+  padding: 24px 42px;
+  text-decoration: none;
+  font-size: 16px;
 }
+
 #header img {
-    float: left;
-    height: 64px;
-    margin-left: 80px;
+  float: left;
+  height: 64px;
+  margin-left: 80px;
 }
-#main-slider{
-    width: 100vw;
-    height: 90vh;
-    background-color: #bbb;
-    background-image: url('other/bg1.png');
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: relative;
+
+#main-slider {
+  width: 100vw;
+  height: 90vh;
+  background-color: #bbb;
+  background-image: url('other/bg1.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
 }
-#main-slider .mySlides{
-    width: 100%;
-    height: 100%;
-    background-color: rgba(0, 0, 0, 0.6);
-    padding: 100px;
-    padding-left: 200px;
-    padding-right: 200px;
-    visibility: visible;
-    transition-duration: 0.4s;
-    transition: all 2s;
-    overflow: hidden;
-    text-overflow: ellipsis;
-    position: absolute;
+
+#main-slider .mySlides {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
+  padding: 100px;
+  padding-left: 200px;
+  padding-right: 200px;
+  visibility: visible;
+  transition-duration: 0.4s;
+  transition: all 2s;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  position: absolute;
 }
-#main-slider .mySlides h1{
-    font-size: 64px;
-    margin-bottom: 20px;
-    transition-duration: 0.4s;
-    animation: text 1s;
-    overflow: hidden;
-    white-space: nowrap;
+
+#main-slider .mySlides h1 {
+  font-size: 64px;
+  margin-bottom: 20px;
+  transition-duration: 0.4s;
+  animation: text 1s;
+  overflow: hidden;
+  white-space: nowrap;
 }
-#main-slider .mySlides h2{
-    font-size: 32px;
-    margin-bottom: 20px;
-    color: rgb(255, 255, 255);
-    animation: text 1.5s;
-    overflow: hidden;
-    white-space: nowrap;
+
+#main-slider .mySlides h2 {
+  font-size: 32px;
+  margin-bottom: 20px;
+  color: rgb(255, 255, 255);
+  animation: text 1.5s;
+  overflow: hidden;
+  white-space: nowrap;
 }
-#main-slider .mySlides .p-box{
-    color: rgba(255, 255, 255, 0.616);
-    animation: text 2s;
-    width: 40%;
+
+#main-slider .mySlides .p-box {
+  color: rgba(255, 255, 255, 0.616);
+  animation: text 2s;
+  width: 40%;
 }
-@keyframes text{
-    from{
-        margin-left: 1000px;
-    }
-    to{
-        margin-left: 0px;
-    }
-    
+
+@keyframes text {
+  from {
+    margin-left: 1000px;
+  }
+
+  to {
+    margin-left: 0px;
+  }
 }
-#astronomia{
-    height: 90vh;
-    background-color: rgb(255, 255, 255);
-    padding: 100px;
+
+#astronomia {
+  height: 90vh;
+  background-color: rgb(255, 255, 255);
+  padding: 100px;
 }
-.overlay{
-    width: 100%;
-    height: 100%;
-    background-color: rgba(0, 0, 0, 0.6);
+
+.overlay {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
 }
-#astronomia p{
-    margin-top: 20px;
-    padding: 0;
-    color: rgb(30, 30, 30);
+
+#astronomia p {
+  margin-top: 20px;
+  padding: 0;
+  color: rgb(30, 30, 30);
 }
-#astronomia #astronomia-box{
-    width: 30%;
-    height: 110%;
-    left: 60%;
-    top: -55%;
-    background-color: rgb(255, 255, 255);
-    position: relative;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.733);
-    border-radius: 10px;
-    z-index: 2;
-    text-align: center;
-    padding: 20px;
+
+#astronomia #astronomia-box {
+  width: 30%;
+  height: 110%;
+  left: 60%;
+  top: -55%;
+  background-color: rgb(255, 255, 255);
+  position: relative;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.733);
+  border-radius: 10px;
+  z-index: 2;
+  text-align: center;
+  padding: 20px;
 }
-#astronomia #astronomia-box form{
-    width: 100%;
-    padding: 20px;
-    font-family: 'Roboto', sans-serif;
-    font-size: 18px;
+
+#astronomia #astronomia-box form {
+  width: 100%;
+  padding: 20px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
 }
-#astronomia #astronomia-box form #form-cat{
-    width: 60%;
-    margin-bottom: 40px;
-    height: 40px;
-    outline: none;
-    border: 2px solid rgba(0,0,0,0.4);
-    border-radius: 4px;
-    text-align: center;
-    font-family: 'Roboto', sans-serif;
-    font-size: 18px;
-    margin-top: 40px;
-    transition-duration: 0.2s;
+
+#astronomia #astronomia-box form #form-cat {
+  width: 60%;
+  margin-bottom: 40px;
+  height: 40px;
+  outline: none;
+  border: 2px solid rgba(0, 0, 0, 0.4);
+  border-radius: 4px;
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+  margin-top: 40px;
+  transition-duration: 0.2s;
 }
-#astronomia #astronomia-box form #form-key{
-    width: 60%;
-    height: 40px;
-    outline: none;
-    border: 2px solid rgba(0,0,0,0.4);
-    border-radius: 4px;
-    padding-left: 10px;
-    font-family: 'Roboto', sans-serif;
-    font-size: 18px;
-    transition-duration: 0.2s;
+
+#astronomia #astronomia-box form #form-key {
+  width: 60%;
+  height: 40px;
+  outline: none;
+  border: 2px solid rgba(0, 0, 0, 0.4);
+  border-radius: 4px;
+  padding-left: 10px;
+  font-family: 'Roboto', sans-serif;
+  font-size: 18px;
+  transition-duration: 0.2s;
 }
-#form-key:focus, #form-cat:focus{
-    background-color: rgb(233, 245, 255);
-    border-radius: 14px;
-    border-color: rgb(0, 140, 255);
+
+#form-key:focus, #form-cat:focus {
+  background-color: rgb(233, 245, 255);
+  border-radius: 14px;
+  border-color: rgb(0, 140, 255);
 }
-.empty-field{
-    background-color: rgb(255, 125, 125);
+
+.empty-field {
+  background-color: rgb(255, 125, 125);
 }
-#astronomia #astronomia-box form #form-key:hover, #astronomia #astronomia-box form #form-cat:hover{
-    border-radius: 14px;
-    border-color: rgb(0, 140, 255);
+
+#astronomia #astronomia-box form #form-key:hover, #astronomia #astronomia-box form #form-cat:hover {
+  border-radius: 14px;
+  border-color: rgb(0, 140, 255);
 }
-button{
-    font-size: 14px;
-    color: rgb(255, 255, 255);
-    background-color: rgb(0, 140, 255);
-    border: 2px solid rgb(0, 140, 255);
-    border-radius: 4px;
-    padding: 12px 24px;
-    transition-duration: 0.2s;
-    cursor: pointer;
+
+button {
+  font-size: 14px;
+  color: rgb(255, 255, 255);
+  background-color: rgb(0, 140, 255);
+  border: 2px solid rgb(0, 140, 255);
+  border-radius: 4px;
+  padding: 12px 24px;
+  transition-duration: 0.2s;
+  cursor: pointer;
 }
-button:hover{
-    color: rgb(0, 140, 255);
-    background-color: rgb(255, 255, 255);
-    border-radius: 10px;
+
+button:hover {
+  color: rgb(0, 140, 255);
+  background-color: rgb(255, 255, 255);
+  border-radius: 10px;
 }
-#kosmos{
-    height: 100vh;
-    padding: 80px;
-    background-color: rgba(0, 0, 0, 0.6);
+
+#kosmos {
+  height: 100vh;
+  padding: 80px;
+  background-color: rgba(0, 0, 0, 0.6);
 }
-#podstrony{
-    height: 30vh;
-    background-color: rgb(255, 255, 255);
-    display: flex;
-    align-content: stretch;
-    justify-content: space-evenly;
-    box-shadow: 0px -4px 10px rgba(0, 0, 0, 0.733);
-    border-bottom: 2px solid rgb(255, 255, 255);
+
+#podstrony {
+  height: 30vh;
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  align-content: stretch;
+  justify-content: space-evenly;
+  box-shadow: 0px -4px 10px rgba(0, 0, 0, 0.733);
+  border-bottom: 2px solid rgb(255, 255, 255);
 }
-#podstrony .page-box{
-    height: 100%;
-    width: 40%;
-    background-size: 110%;
-    transition-duration: 0.4s;
-    background-position: center;
-    text-align: center;
+
+#podstrony .page-box {
+  height: 100%;
+  width: 40%;
+  background-size: 110%;
+  transition-duration: 0.4s;
+  background-position: center;
+  text-align: center;
 }
-#podstrony .page-box:hover{
-    background-size: 120%;
-    background-position: center;
+
+#podstrony .page-box:hover {
+  background-size: 120%;
+  background-position: center;
 }
-#podstrony .page-box *{
-    box-sizing: border-box;
+
+#podstrony .page-box * {
+  box-sizing: border-box;
 }
-#podstrony .page-box h1{
-    color: rgb(255, 255, 255);
-    margin: 0;
-    padding: 0;
-    padding-top: 70px;
+
+#podstrony .page-box h1 {
+  color: rgb(255, 255, 255);
+  margin: 0;
+  padding: 0;
+  padding-top: 70px;
 }
-#podstrony .page-box p{
-    color: rgba(255, 255, 255, 0.616);
-    margin: 0;
-    padding-left: 80px;
-    padding-right: 80px;
-    padding-top: 10px;
+
+#podstrony .page-box p {
+  color: rgba(255, 255, 255, 0.616);
+  margin: 0;
+  padding-left: 80px;
+  padding-right: 80px;
+  padding-top: 10px;
 }
-#footer{
-    height: 60vh;
-    background-color: rgb(0, 0, 0);
-    display: flex;
-    align-content: stretch;
-    justify-content: space-evenly;
+
+#footer {
+  height: 60vh;
+  background-color: rgb(0, 0, 0);
+  display: flex;
+  align-content: stretch;
+  justify-content: space-evenly;
 }
-#footer p{
-    color: rgba(255, 255, 255, 0.616);
+
+#footer p {
+  color: rgba(255, 255, 255, 0.616);
 }
-#footer .footer-box{
-    width: 30%;
-    height: 100%;
-    padding: 20px;
-    padding-top: 80px;
+
+#footer .footer-box {
+  width: 30%;
+  height: 100%;
+  padding: 20px;
+  padding-top: 80px;
 }
-#footer li{
-    color: rgba(255, 255, 255, 0.616);
-    font-size: 20px;
-    list-style-image: url(other/arrow.svg);
-    margin-bottom: 10px;
+
+#footer li {
+  color: rgba(255, 255, 255, 0.616);
+  font-size: 20px;
+  list-style-image: url(other/arrow.svg);
+  margin-bottom: 10px;
 }
-#page-banner{
-    width: 100vw;
-    height: 20vh;
-    background-image: url('other/bg2.png');
-    background-size: cover;
-    background-position: bottom;
+
+#page-banner {
+  width: 100vw;
+  height: 20vh;
+  background-image: url('other/bg2.png');
+  background-size: cover;
+  background-position: bottom;
 }
-#page-banner h1{
-    margin: 0;
-    font-size: 50px;
-    color: rgb(255, 255, 255);
-    position: relative;
-    top: 50%;
-    transform: translateY(-25px);
+
+#page-banner h1 {
+  margin: 0;
+  font-size: 50px;
+  color: rgb(255, 255, 255);
+  position: relative;
+  top: 50%;
+  transform: translateY(-25px);
 }
-#page-one{
-    width: 100vw;
-    height: 100vh;
-    background-color: rgb(247, 249, 255);
+
+#page-one {
+  width: 100vw;
+  height: 100vh;
+  background-color: rgb(247, 249, 255);
 }
-#page-two{
-    width: 100vw;
-    height: 100vh;
-    background-color: rgb(255, 255, 255);
+
+#page-two {
+  width: 100vw;
+  height: 100vh;
+  background-color: rgb(255, 255, 255);
 }

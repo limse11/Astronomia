@@ -1,153 +1,158 @@
 <!DOCTYPE html>
 <html lang="pl">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home - Astronomia</title>
-    <link rel="shortcut icon" href="other/planet.svg">
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Home - Astronomia</title>
+  <link rel="shortcut icon" href="other/planet.svg">
+  <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-    <div id="loading-screen">
-        <img id="loading-img" src="other/load.svg">
+  <div id="loading-screen">
+    <img id="loading-img" src="other/load.svg">
+  </div>
+  <script src="scripts/load.js"></script>
+  <div id="header-box">
+    <ul id="header">
+      <a href="index.html"><img src="other/planet.svg"></a>
+      <li><a href="#footer">INFO</a></li>
+      <li><a href="#kosmos">KOSMOS</a></li>
+      <li><a href="#astronomia-box">ASTRONOMIA</a></li>
+      <li><a href="#header-margin">HOME</a></li>
+    </ul>
+  </div>
+  <div id="header-margin"></div>
+  <div id="main-slider">
+    <div class="mySlides">
+      <h1>Astronomia</h1>
+      <h2>Strona astronomia typu tego z temu typu i gółem inne rzeczy</h2>
+      <div class="p-box">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit eveniet dolorum facilis aut veniam consequatur minima excepturi, libero debitis quisquam at odio. Distinctio praesentium neque placeat est accusantium dolore enim.</p>
+      </div>
     </div>
-    <script src="scripts/load.js"></script>
-    <div id="header-box">
-        <ul id="header">
-            <a href="index.html"><img src="other/planet.svg"></a>
-            <li><a href="#footer">INFO</a></li>
-            <li><a href="#kosmos">KOSMOS</a></li>
-            <li><a href="#astronomia-box">ASTRONOMIA</a></li>
-            <li><a href="#header-margin">HOME</a></li>
+    <div class="mySlides">
+      <h1>Kosmos</h1>
+      <h2>Kosmos jest ogromny ogółem to wiadomo</h2>
+      <div class="p-box">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit eveniet dolorum facilis aut veniam consequatur minima excepturi, libero debitis quisquam at odio.</p>
+      </div>
+    </div>
+    <div class="mySlides">
+      <h1>Galaktyki</h1>
+      <h2>Nogi się nie zginają dla jego</h2>
+      <div class="p-box">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit eveniet dolorum facilis aut veniam consequatur minima excepturi, libero debitis quisquam at odio. Distinctio praesentium neque placeat est accusantium dolore enim.</p>
+      </div>
+    </div>
+  </div>
+
+  <div id="astronomia">
+    <h1 style="margin-right: 60%;">Astronomy</h1>
+    <p style="margin-right: 60%;">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Adipisci praesentium sint odio assumenda voluptates dolores similique, nam modi tempora minima voluptatem possimus? Temporibus consequatur doloremque debitis.
+      Eligendi vero quae dolore.</p>
+    <div id="astronomia-box">
+      <h1>Wyszukaj, co cię interesuje</h1>
+      <form>
+        <select id="form-cat">
+          <option value="none">Wybierz kategorię</option>
+          <option value="Planeta">Planety</option>
+          <option value="Gwiazda">Gwiazdy</option>
+          <option value="Galaktyka">Galaktyki</option>
+          <option value="">Inne</option>
+        </select>
+        <input id="form-key" type="text" placeholder="Wpisz słowo kluczowe">
+        <div style="text-align: left; width: 60%; margin-left: auto; margin-right: auto; margin-top: 40px;">
+          <p id="label">Wybierz wyszukiwarkę:</p>
+          <input type="radio" name="search" value="https://www.google.com/search?q="><img src="other/google.png" height="14px" style="margin-right: 4px;">Google<br>
+          <input type="radio" name="search" value="https://www.bing.com/search?q="><img src="other/bing.png" height="14px" style="margin-right: 4px;">Bing<br>
+          <input type="radio" name="search" value="https://duckduckgo.com/?q="><img src="other/duckduckgo.png" height="14px" style="margin-right: 4px;">Duck Duck Go<br>
+          <input type="radio" name="search" value="https://pl.wikipedia.org/w/index.php?search="><img src="other/wikipedia.png" height="14px" style="margin-right: 4px;">Wikipedia<br>
+        </div>
+      </form>
+
+      <button id="send" style="margin-top: 80px;" onclick="search()">Szukaj</button>
+    </div>
+  </div>
+
+  <div id="kosmos">
+
+  </div>
+
+  <div id="podstrony">
+    <div class="page-box" style="background-image: url('other/bg3.jpg');">
+      <a href="sub/planety.html" target="_blank">
+        <div class="overlay">
+          <h1>Planety</h1>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum iusto similique voluptas minus fugiat architecto reiciendis ratione, animi quidem fuga id expedita libero facere nulla optio asperiores maxime, iste nihil!</p>
+        </div>
+      </a>
+    </div>
+
+    <div class="page-box" style="background-image: url('other/bg4.jpg');">
+      <a href="sub/gwiazdy.html" target="_blank">
+        <div class="overlay">
+          <h1>Gwiazdy</h1>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum iusto similique voluptas minus fugiat architecto reiciendis ratione, animi quidem fuga id expedita libero facere nulla optio asperiores maxime, iste nihil!</p>
+        </div>
+    </div>
+
+    <div class="page-box" style="background-image: url('other/bg5.jpg');">
+      <a href="sub/galaktyki.html" target="_blank">
+        <div class="overlay">
+          <h1>Galaktyki</h1>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum iusto similique voluptas minus fugiat architecto reiciendis ratione, animi quidem fuga id expedita libero facere nulla optio asperiores maxime, iste nihil!</p>
+        </div>
+      </a>
+    </div>
+
+    <div class="page-box" style="background-image: url('other/bg6.jpg');">
+      <a href="sub/czasoprzestrzen.html" target="_blank">
+        <div class="overlay">
+          <h1>Czasoprzestrzeń</h1>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum iusto similique voluptas minus fugiat architecto reiciendis ratione, animi quidem fuga id expedita libero facere nulla optio asperiores maxime, iste nihil!</p>
+        </div>
+      </a>
+    </div>
+
+  </div>
+
+  <div id="footer">
+    <div class="footer-box">
+      <a href="#header-margin"><img src="other/planet.svg" height="128px" style="float: left;"></a>
+      <h1 style="margin: 0; margin-top: 40px;">Astronomia</h1>
+      <p style="margin-top: 100px; margin-left: 40px; margin-right: 100px;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste ab quos exercitationem dolore provident cupiditate rerum enim facilis obcaecati accusantium, nisi, sed veritatis
+        delectus ipsum, doloremque fugit. Nulla, error consequatur!</p>
+    </div>
+    <div class="footer-box">
+      <h1 style="margin: 0; margin-top: 40px; text-align: center;">Mapa Strony</h1>
+      <div style="width: min-content; margin-left: auto; margin-right: auto;">
+        <ul style="margin-top: 40px;">
+          <li><a href="#header-margin">Home</a></li>
+          <li><a href="#astronomia">Astronomia</a></li>
+          <li><a href="#kosmos">Kosmos</a></li>
+          <li><a href="sub/planety.html">Planety</a></li>
+          <li><a href="sub/gwiazdy.html">Gwiazdy</a></li>
+          <li><a href="sub/galaktyki.html">Galaktyki</a></li>
+          <li><a href="sub/czasoprzestrzen.html">Czasoprzestrzeń</a></li>
+          <li><a href="#footer">Info</a></li>
         </ul>
-    </div>
-    <div id="header-margin"></div>
-    <div id="main-slider">
-        <div class="mySlides">
-            <h1>Astronomia</h1>
-            <h2>Strona astronomia typu tego z temu typu i gółem inne rzeczy</h2>
-            <div class="p-box">
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit eveniet dolorum facilis aut veniam consequatur minima excepturi, libero debitis quisquam at odio. Distinctio praesentium neque placeat est accusantium dolore enim.</p>
-        </div>
-        </div>
-        <div class="mySlides">
-            <h1>Kosmos</h1>
-            <h2>Kosmos jest ogromny ogółem to wiadomo</h2>
-            <div class="p-box">
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit eveniet dolorum facilis aut veniam consequatur minima excepturi, libero debitis quisquam at odio.</p>
-        </div>
-        </div>
-        <div class="mySlides">
-            <h1>Galaktyki</h1>
-            <h2>Nogi się nie zginają dla jego</h2>
-            <div class="p-box">
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit eveniet dolorum facilis aut veniam consequatur minima excepturi, libero debitis quisquam at odio. Distinctio praesentium neque placeat est accusantium dolore enim.</p>
-        </div>
-        </div>
-    </div>
-    
-    <div id="astronomia">
-        <h1 style="margin-right: 60%;">Astronomy</h1>
-        <p style="margin-right: 60%;">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Adipisci praesentium sint odio assumenda voluptates dolores similique, nam modi tempora minima voluptatem possimus? Temporibus consequatur doloremque debitis. Eligendi vero quae dolore.</p>
-        <div id="astronomia-box">
-            <h1>Wyszukaj, co cię interesuje</h1>
-            <form>
-                <select id="form-cat">
-                    <option value="none">Wybierz kategorię</option>
-                    <option value="Planeta">Planety</option>
-                    <option value="Gwiazda">Gwiazdy</option>
-                    <option value="Galaktyka">Galaktyki</option>
-                    <option value="">Inne</option>
-                </select>
-                <input id="form-key" type="text" placeholder="Wpisz słowo kluczowe">
-                <div style="text-align: left; width: 60%; margin-left: auto; margin-right: auto; margin-top: 40px;">
-                    <p id="label">Wybierz wyszukiwarkę:</p>
-                    <input type="radio" name="search" value="https://www.google.com/search?q="><img src="other/google.png" height="14px" style="margin-right: 4px;">Google<br>
-                    <input type="radio" name="search" value="https://www.bing.com/search?q="><img src="other/bing.png" height="14px" style="margin-right: 4px;">Bing<br>
-                    <input type="radio" name="search" value="https://duckduckgo.com/?q="><img src="other/duckduckgo.png" height="14px" style="margin-right: 4px;">Duck Duck Go<br>
-                    <input type="radio" name="search" value="https://pl.wikipedia.org/w/index.php?search="><img src="other/wikipedia.png" height="14px" style="margin-right: 4px;">Wikipedia<br>
-                </div>
-            </form>
-            
-            <button id="send" style="margin-top: 80px;" onclick="search()">Szukaj</button>
-        </div>
-    </div>
-    
-    <div id="kosmos">
-        
-    </div>
-
-    <div id="podstrony">
-        <div class="page-box" style="background-image: url('other/bg3.jpg');">
-            <a href="sub/planety.html" target="_blank">
-                <div class="overlay">
-                    <h1>Planety</h1>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum iusto similique voluptas minus fugiat architecto reiciendis ratione, animi quidem fuga id expedita libero facere nulla optio asperiores maxime, iste nihil!</p>
-                </div>
-            </a>
-        </div>
-
-        <div class="page-box" style="background-image: url('other/bg4.jpg');">
-            <a href="sub/gwiazdy.html" target="_blank">
-                <div class="overlay">
-                    <h1>Gwiazdy</h1>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum iusto similique voluptas minus fugiat architecto reiciendis ratione, animi quidem fuga id expedita libero facere nulla optio asperiores maxime, iste nihil!</p>
-                </div>
-        </div>
-
-        <div class="page-box" style="background-image: url('other/bg5.jpg');">
-            <a href="sub/galaktyki.html" target="_blank">
-                <div class="overlay">
-                    <h1>Galaktyki</h1>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum iusto similique voluptas minus fugiat architecto reiciendis ratione, animi quidem fuga id expedita libero facere nulla optio asperiores maxime, iste nihil!</p>
-                </div>
-            </a>
-        </div>
-        
-        <div class="page-box" style="background-image: url('other/bg6.jpg');">
-            <a href="sub/czasoprzestrzen.html" target="_blank">
-                <div class="overlay">
-                    <h1>Czasoprzestrzeń</h1>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum iusto similique voluptas minus fugiat architecto reiciendis ratione, animi quidem fuga id expedita libero facere nulla optio asperiores maxime, iste nihil!</p>
-                </div>
-            </a>
-        </div>
+      </div>
 
     </div>
-
-    <div id="footer">
-        <div class="footer-box">
-            <a href="#header-margin"><img src="other/planet.svg" height="128px" style="float: left;"></a>
-            <h1 style="margin: 0; margin-top: 40px;">Astronomia</h1>
-            <p style="margin-top: 100px; margin-left: 40px; margin-right: 100px;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste ab quos exercitationem dolore provident cupiditate rerum enim facilis obcaecati accusantium, nisi, sed veritatis delectus ipsum, doloremque fugit. Nulla, error consequatur!</p>
-        </div>
-        <div class="footer-box">
-            <h1 style="margin: 0; margin-top: 40px; text-align: center;">Mapa Strony</h1>
-            <div style="width: min-content; margin-left: auto; margin-right: auto;">
-                <ul style="margin-top: 40px;">
-                    <li><a href="#header-margin">Home</a></li>
-                    <li><a href="#astronomia">Astronomia</a></li>
-                    <li><a href="#kosmos">Kosmos</a></li>
-                    <li><a href="sub/planety.html">Planety</a></li>
-                    <li><a href="sub/gwiazdy.html">Gwiazdy</a></li>
-                    <li><a href="sub/galaktyki.html">Galaktyki</a></li>
-                    <li><a href="sub/czasoprzestrzen.html">Czasoprzestrzeń</a></li>
-                    <li><a href="#footer">Info</a></li>
-                </ul>
-            </div>
-            
-        </div>
-        <div class="footer-box">
-            <h1 style="margin: 0; margin-top: 40px; text-align: center;">Projekt</h1>
-            <p style="margin-top: 40px; text-align: center;">
-                Wykonał: Wiktor Uliasz<br>
-                Klasa: 2ctg<br>
-                Projekt strony na zakończenie roku
-            </p>
-        </div>
+    <div class="footer-box">
+      <h1 style="margin: 0; margin-top: 40px; text-align: center;">Projekt</h1>
+      <p style="margin-top: 40px; text-align: center;">
+        Wykonał: Wiktor Uliasz<br>
+        Klasa: 2ctg<br>
+        Projekt strony na zakończenie roku
+      </p>
     </div>
-    <script src="scripts/slider.js"></script>
-    <script src="scripts/search.js"></script>
+  </div>
+  <script src="scripts/slider.js"></script>
+  <script src="scripts/search.js"></script>
 </body>
+
 </html>
