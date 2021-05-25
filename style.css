@@ -18,7 +18,19 @@ body, html {
   background-attachment: fixed;
   background-size: cover;
 }
-
+*::-webkit-scrollbar {
+  display: block;
+  width: 5px;
+}
+*::-webkit-scrollbar-track {
+  background: rgba(0,0,0,0.2);
+}
+*::-webkit-scrollbar-thumb {
+  background-color: rgba(0,0,0,0.4);
+  border-right: none;
+  border-left: none;
+  border-radius: 10px;
+}
 body::-webkit-scrollbar {
   display: block;
   width: 5px;
@@ -210,13 +222,14 @@ a:hover {
   margin-top: 20px;
   padding: 0;
   color: rgb(30, 30, 30);
+  float: left;
 }
 
 #astronomia #astronomia-box {
   width: 30%;
+  position: absolute;
   height: 110%;
-  left: 60%;
-  top: -55%;
+  top: -40%;
   background-color: rgb(255, 255, 255);
   position: relative;
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.733);
@@ -224,6 +237,8 @@ a:hover {
   z-index: 2;
   text-align: center;
   padding: 20px;
+  float: right;
+  margin-right: 5%;
 }
 
 #astronomia #astronomia-box form {
@@ -283,6 +298,7 @@ button {
   padding: 12px 24px;
   transition-duration: 0.2s;
   cursor: pointer;
+  position: relative;
 }
 
 button:hover {
