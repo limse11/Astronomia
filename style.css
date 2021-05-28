@@ -60,7 +60,7 @@ a {
   text-decoration: none;
   font-family: 'Roboto', sans-serif;
   color: rgb(255, 255, 255);
-  setset transition-duration: 0.2s;
+  transition-duration: 0.2s;
 }
 
 a:hover {
@@ -276,11 +276,8 @@ a:hover {
   font-size: 18px;
   transition-duration: 0.2s;
 }
-
-#form-key:focus, #form-cat:focus {
-  background-color: rgb(233, 245, 255);
-  border-radius: 14px;
-  border-color: rgb(0, 140, 255);
+#astronomia #astronomia-box form select{
+  background-color: rgb(255,255,255);
 }
 
 .empty-field {
@@ -439,12 +436,81 @@ button:hover {
 
 #page-one {
   width: 100vw;
-  height: 100vh;
+  min-height: 100vh;
+  height: auto;
   background-color: rgb(247, 249, 255);
+  padding: 200px;
 }
-
+#page-one h1 {
+  margin: 0;
+}
+#page-one p, #page-two p{
+  margin-top: 20px;
+  padding: 0;
+  color: rgb(30, 30, 30);
+  float: left;
+  font-size: 18px;
+}
 #page-two {
   width: 100vw;
-  height: 100vh;
+  min-height: 100vh;
+  height: auto;
   background-color: rgb(255, 255, 255);
+  padding: 200px;
+}
+#page-one li{
+  list-style-image: url(other/arrow.svg);
+  color: rgb(30, 30, 30);
+  font-size: 18px;
+  margin-bottom: 8px;
+}
+li p{
+  float: right;
+}
+#uklad{
+  width: 40%;
+  margin-top: 80px;
+  margin-left: 40px;
+  margin-left: auto;
+  margin-right: auto;
+}
+#uklad .planet{
+  width: 100%;
+  height: 100px;
+  margin: 0;
+  padding: 0;
+  margin-bottom: 50px;
+  position: relative;
+  transition-duration: 0.4s;
+}
+#uklad .planet:hover{
+  background-color: rgba(0,0,0,0.1);
+  margin-left: 100px;
+}
+#uklad .planet img{
+  height: 100px;
+  margin: 0;
+  position: relative;
+}
+#uklad .planet .planetimg{
+  width: 30%;
+  text-align: center;
+  margin: 0;
+  position: relative;
+  float: left;
+  height: 100%;
+}
+#uklad .planet .planetp{
+  width: 70%;
+  text-align: center;
+  float: right;
+  margin: 0;
+  height: 100%;
+}
+#uklad .planet p{
+  margin: 0;
+  font-size: 22px;
+  top: 50%;
+  transform: translateY(-11px);
+  position: relative;
 }
