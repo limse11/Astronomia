@@ -157,10 +157,22 @@ a:hover {
   background-image: url('other/bg1.png');
   background-position: center;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: 120%;
   position: relative;
+  transition-duration: 0.4s;
+  animation: back 128s infinite linear;
 }
-
+@keyframes back {
+  0%{
+    background-position: left;
+  }
+  50%{
+    background-position: right;
+  }
+  100%{
+    background-position: left;
+  }
+}
 #main-slider .mySlides {
   width: 100%;
   height: 100%;
