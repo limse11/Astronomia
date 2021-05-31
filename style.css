@@ -60,7 +60,7 @@ h1, h2, h3, h4, h5 {
 a {
   text-decoration: none;
   font-family: 'Roboto', sans-serif;
-  color: rgb(255, 255, 255);
+  color: rgb(0, 89, 162);
   transition-duration: 0.2s;
 }
 
@@ -419,7 +419,12 @@ button:hover {
   list-style-image: url(other/arrow.svg);
   margin-bottom: 10px;
 }
-
+#footer a{
+  color: rgb(255,255,255);
+}
+#footer a:hover{
+  color: rgb(0, 140, 255);
+}
 #page-banner {
   width: 100vw;
   height: 20vh;
@@ -448,6 +453,11 @@ button:hover {
 }
 #page-one h1 {
   margin: 0;
+}
+.note{
+  color: rgb(60, 60, 60);
+  font-size: 14px;
+  font-style: italic;
 }
 #page-one p, #page-two p{
   margin-top: 20px;
