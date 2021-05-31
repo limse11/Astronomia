@@ -436,7 +436,8 @@ button:hover {
   height: 20vh;
   background-image: url('other/bg2.jpeg');
   background-size: 120%;
-  background-position: bottom;
+  background-position: 10%;
+  animation: back 150s infinite linear;
 }
 
 #page-banner h1 {
