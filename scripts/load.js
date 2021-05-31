@@ -1,5 +1,4 @@
-setTimeout(function load() {
-  document.querySelector('#loading-screen').style.transitionDuration = '1s';
-  document.querySelector('#loading-screen').style.height = "0vh";
-  document.querySelector('#loading-img').style.display = "none";
-}, 2000);
+document.body.onload = function(){
+  document.querySelector('#loading-screen').style.height = "100vh";
+  document.querySelector('#loading-img').style.display = "block";
+}
