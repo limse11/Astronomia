@@ -90,15 +90,7 @@ a:hover {
   animation: load 1s infinite linear;
 }
 
-@keyframes load {
-  from {
-    transform: rotate(0deg);
-  }
 
-  to {
-    transform: rotate(359deg);
-  }
-}
 
 #header-box {
   position: fixed;
@@ -202,15 +194,7 @@ a:hover {
   width: 40%;
 }
 
-@keyframes text {
-  from {
-    margin-left: 1000px;
-  }
 
-  to {
-    margin-left: 0px;
-  }
-}
 
 #astronomia {
   height: 90vh;
@@ -336,19 +320,7 @@ button:hover {
   animation: bounce 2s infinite linear;
 }
 
-@keyframes bounce {
-  0% {
-    margin-top: 5%;
-  }
 
-  50% {
-    margin-top: 8%;
-  }
-
-  100% {
-    margin-top: 5%;
-  }
-}
 
 #podstrony {
   height: 30vh;
@@ -532,6 +504,32 @@ li p{
   transform: translateY(-11px);
   position: relative;
 }
+#gwiazdy{
+  width: 80%;
+  height: 180px;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  align-content: stretch;
+  justify-content: space-evenly;
+}
+#gwiazdy .star{
+  width: 40%;
+  text-align: center;
+}
+#gwiazdy .star img{
+  width: 60%;
+  transition-duration: 0.5s;
+}
+#gwiazdy .star img:hover{
+  width: 70%;
+}
+#gwiazdy .star p{
+  font-size: 14px;
+  font-weight: bold;
+  width: 100%;
+}
 @keyframes back {
   0%{
     background-position: left;
@@ -541,5 +539,36 @@ li p{
   }
   100%{
     background-position: left;
+  }
+}
+@keyframes load {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(359deg);
+  }
+}
+@keyframes bounce {
+  0% {
+    margin-top: 5%;
+  }
+
+  50% {
+    margin-top: 8%;
+  }
+
+  100% {
+    margin-top: 5%;
+  }
+}
+@keyframes text {
+  from {
+    margin-left: 1000px;
+  }
+
+  to {
+    margin-left: 0px;
   }
 }
