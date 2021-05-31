@@ -12,7 +12,7 @@ body, html {
   overflow: overlay;
   font-family: 'Roboto', sans-serif;
   scroll-behavior: smooth;
-  background-image: url('other/bg2.jpg');
+  background-image: url('other/bg2.jpeg');
   background-position: right;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -156,7 +156,7 @@ a:hover {
   width: 100vw;
   height: 90vh;
   background-color: #bbb;
-  background-image: url('other/bg1.png');
+  background-image: url('other/bg1.jpeg');
   background-position: center;
   background-repeat: no-repeat;
   background-size: 120%;
@@ -434,7 +434,7 @@ button:hover {
 #page-banner {
   width: 100vw;
   height: 20vh;
-  background-image: url('other/bg2.png');
+  background-image: url('other/bg2.jpeg');
   background-size: cover;
   background-position: bottom;
 }
