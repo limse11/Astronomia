@@ -13,7 +13,7 @@ body, html {
   font-family: 'Roboto', sans-serif;
   scroll-behavior: smooth;
   background-image: url('other/bg2.jpeg');
-  background-position: right;
+  background-position: top right;
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: 120%;
