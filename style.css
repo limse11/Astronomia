@@ -261,10 +261,6 @@ a:hover {
   transition-duration: 0.2s;
 }
 
-#astronomia #astronomia-box form select {
-  background-color: rgb(255, 255, 255);
-}
-
 .empty-field {
   background-color: rgb(255, 125, 125);
 }
