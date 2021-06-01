@@ -90,8 +90,6 @@ a:hover {
   animation: load 1s infinite linear;
 }
 
-
-
 #header-box {
   position: fixed;
   z-index: 3;
@@ -156,6 +154,7 @@ a:hover {
   transition-duration: 0.4s;
   animation: back 150s infinite linear;
 }
+
 #main-slider .mySlides {
   width: 100%;
   height: 100%;
@@ -193,8 +192,6 @@ a:hover {
   animation: text 2s;
   width: 40%;
 }
-
-
 
 #astronomia {
   height: 90vh;
@@ -263,8 +260,9 @@ a:hover {
   font-size: 18px;
   transition-duration: 0.2s;
 }
-#astronomia #astronomia-box form select{
-  background-color: rgb(255,255,255);
+
+#astronomia #astronomia-box form select {
+  background-color: rgb(255, 255, 255);
 }
 
 .empty-field {
@@ -319,8 +317,6 @@ button:hover {
   transform: scale(0.6, 1) rotate(90deg);
   animation: bounce 2s infinite linear;
 }
-
-
 
 #podstrony {
   height: 30vh;
@@ -391,12 +387,15 @@ button:hover {
   list-style-image: url(other/arrow.svg);
   margin-bottom: 10px;
 }
-#footer a{
-  color: rgb(255,255,255);
+
+#footer a {
+  color: rgb(255, 255, 255);
 }
-#footer a:hover{
+
+#footer a:hover {
   color: rgb(0, 140, 255);
 }
+
 #page-banner {
   width: 100vw;
   height: 20vh;
@@ -423,40 +422,48 @@ button:hover {
   padding: 200px;
   z-index: 1;
 }
+
 #page-one h1 {
   margin: 0;
 }
-.note{
+
+.note {
   color: rgb(60, 60, 60);
   font-size: 14px;
   font-style: italic;
 }
-#page-one p, #page-two p{
+
+#page-one p, #page-two p {
   margin-top: 20px;
   padding: 0;
   color: rgb(30, 30, 30);
   float: left;
   font-size: 18px;
 }
+
 #page-two {
   width: 100vw;
   min-height: 100vh;
   height: auto;
   background-color: rgb(255, 255, 255);
-  padding: 200px;/*
+  padding: 200px;
+  /*
   box-shadow: 0px -5px 40px rgba(0,0,0,0.3);*/
   z-index: 2;
 }
-#page-one li{
+
+#page-one li {
   list-style-image: url(other/arrow.svg);
   color: rgb(30, 30, 30);
   font-size: 18px;
   margin-bottom: 8px;
 }
-li p{
+
+li p {
   float: right;
 }
-#uklad{
+
+#uklad {
   width: 40%;
   margin-top: 80px;
   margin-bottom: 80px;
@@ -464,7 +471,8 @@ li p{
   margin-left: auto;
   margin-right: auto;
 }
-#uklad .planet{
+
+#uklad .planet {
   width: 100%;
   height: 100px;
   margin: 0;
@@ -473,16 +481,19 @@ li p{
   position: relative;
   transition-duration: 0.4s;
 }
-#uklad .planet:hover{
-  background-color: rgba(0,0,0,0.1);
+
+#uklad .planet:hover {
+  background-color: rgba(0, 0, 0, 0.1);
   margin-left: 100px;
 }
-#uklad .planet img{
+
+#uklad .planet img {
   height: 100px;
   margin: 0;
   position: relative;
 }
-#uklad .planet .planetimg{
+
+#uklad .planet .planetimg {
   width: 30%;
   text-align: center;
   margin: 0;
@@ -490,21 +501,24 @@ li p{
   float: left;
   height: 100%;
 }
-#uklad .planet .planetp{
+
+#uklad .planet .planetp {
   width: 70%;
   text-align: center;
   float: right;
   margin: 0;
   height: 100%;
 }
-#uklad .planet p{
+
+#uklad .planet p {
   margin: 0;
   font-size: 22px;
   top: 50%;
   transform: translateY(-11px);
   position: relative;
 }
-#gwiazdy{
+
+#gwiazdy {
   width: 80%;
   height: 180px;
   position: relative;
@@ -514,33 +528,70 @@ li p{
   align-content: stretch;
   justify-content: space-evenly;
 }
-#gwiazdy .star{
+
+#gwiazdy .star {
   width: 40%;
   text-align: center;
 }
-#gwiazdy .star img{
+
+#gwiazdy .star img {
   width: 60%;
   transition-duration: 0.5s;
 }
-#gwiazdy .star img:hover{
+
+#gwiazdy .star img:hover {
   width: 70%;
 }
-#gwiazdy .star p{
+
+#gwiazdy .star p {
   font-size: 14px;
   font-weight: bold;
   width: 100%;
 }
+
+#col {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 100px;
+  width: 50%;
+  text-align: center;
+  display: flex;
+  align-content: stretch;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+#col .step {
+  width: 50%;
+  padding: 20px;
+  transition-duration: 0.4s;
+}
+
+#col .step img {
+  width: 100%;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.7);
+  border-radius: 4px;
+  transition-duration: 0.4s;
+}
+
+#col .step:hover {
+  padding: 0px;
+}
+
 @keyframes back {
-  0%{
+  0% {
     background-position: left;
   }
-  50%{
+
+  50% {
     background-position: right;
   }
-  100%{
+
+  100% {
     background-position: left;
   }
 }
+
 @keyframes load {
   from {
     transform: rotate(0deg);
@@ -550,6 +601,7 @@ li p{
     transform: rotate(359deg);
   }
 }
+
 @keyframes bounce {
   0% {
     margin-top: 5%;
@@ -563,6 +615,7 @@ li p{
     margin-top: 5%;
   }
 }
+
 @keyframes text {
   from {
     margin-left: 1000px;
